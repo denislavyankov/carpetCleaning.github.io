@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script type="text/JavaScript">
+			function killCopy(e){
+			return false
+			}
+			function reEnable(){
+			return true
+			}
+			document.onselectstart=new Function ("return false")
+			if (window.sidebar){
+			document.onmousedown=killCopy
+			document.onclick=reEnable
+			}
+		</script>
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+		/>
+
+		<link rel="stylesheet" href="css/style.comp.css" />
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cleaning</title>
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="about.html">Carpet Cleaning</a>
+				</li>
+				<li>
+					<img
+						src="Images/Cleaning.png"
+						alt="Logo Cleaning"
+						height="90"
+						class="logoo"
+					/>
+				</li>
+				<li>
+					<a href="contact.html">Domestic Cleaning</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</nav>
+
+		<section class="imageMenu">
+			<img
+				src="https://www.balajicleaningagency.com/img/slider/slide1-2.jpg"
+				class="imgMenuImg"
+				width="1920"
+				height="500"
+			/>
+		</section>
+		<!-- 
+    <section class="homeAboutIntro">
+      <p>
+        Carpets may look clean but they can be full of germs and dust, <br> which is why it's important to clean them on a regular basis.
+      </p>
+    </section> -->
+
+		<!-- <picture
+      width="500"
+      aria-errormessage="Sorry for the error, your browser doesen't support this image."
+    >
+      <img
+        class="img-section"
+        src="Images/section.jpg"
+        alt=""
+        width="500"
+        height="1080"
+      />
+    </picture> -->
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
